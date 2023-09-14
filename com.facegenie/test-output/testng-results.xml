@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login successful]]>
+    </line>
+    <line>
+      <![CDATA[Wrong Password]]>
+    </line>
+    <line>
+      <![CDATA[Wrong Email]]>
+    </line>
+    <line>
+      <![CDATA[Wrong Email & Wrong Password]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-09-14T22:13:11 IST" name="Default suite" finished-at="2023-09-14T22:14:05 IST" duration-ms="53573">
+    <groups>
+    </groups>
+    <test started-at="2023-09-14T22:13:11 IST" name="Default test" finished-at="2023-09-14T22:14:05 IST" duration-ms="53573">
+      <class name="com.facegenie.Facegenie">
+        <test-method signature="Login_TS_facegenie_001()[pri:0, instance:com.facegenie.Facegenie@22a637e7]" started-at="2023-09-14T22:13:11 IST" name="Login_TS_facegenie_001" finished-at="2023-09-14T22:13:30 IST" duration-ms="18211" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successful]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_TS_facegenie_001 -->
+        <test-method signature="Login_TS_facegenie_002()[pri:0, instance:com.facegenie.Facegenie@22a637e7]" started-at="2023-09-14T22:13:30 IST" name="Login_TS_facegenie_002" finished-at="2023-09-14T22:13:42 IST" duration-ms="12450" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Wrong Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_TS_facegenie_002 -->
+        <test-method signature="Login_TS_facegenie_003()[pri:0, instance:com.facegenie.Facegenie@22a637e7]" started-at="2023-09-14T22:13:42 IST" name="Login_TS_facegenie_003" finished-at="2023-09-14T22:13:54 IST" duration-ms="11784" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Wrong Email]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_TS_facegenie_003 -->
+        <test-method signature="Login_TS_facegenie_004()[pri:0, instance:com.facegenie.Facegenie@22a637e7]" started-at="2023-09-14T22:13:54 IST" name="Login_TS_facegenie_004" finished-at="2023-09-14T22:14:05 IST" duration-ms="11020" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Wrong Email & Wrong Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_TS_facegenie_004 -->
+      </class> <!-- com.facegenie.Facegenie -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
